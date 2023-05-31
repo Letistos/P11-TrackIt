@@ -1,9 +1,10 @@
-import GlobalStyle from "./assets/GlobalStyle"
+import GlobalStyle from "./components/GlobalStyle"
+import Login from "./components/Login"
 function App() {
   return (
     <>
     <GlobalStyle/>
-    <h1>Hello World</h1>
+    <Login/>
     </>
   )
 }
