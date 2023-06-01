@@ -1,12 +1,25 @@
 import GlobalStyle from "./components/GlobalStyle"
-import Login from "./components/Login"
+import styled from "styled-components"
+// import Login from "./components/Login"
+import Cadastro from "./components/Cadastro"
 function App() {
   return (
     <>
+    <Body>
+    
     <GlobalStyle/>
-    <Login/>
+    {/* <Login/> */}
+    <Cadastro/>
+    </Body>
+
     </>
   )
 }
 
 export default App
+
+const Body = styled.div`
+  display:flex;
+  align-items:center;
+  justify-content:center;
+`
