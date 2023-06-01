@@ -7,12 +7,12 @@ function Cadastro(){
         <LoginBox>
             <img src={logo} alt='logo trackIt'/>
             <form>
-                <LoginInput type='email' placeholder="email"></LoginInput>
-                <LoginInput type='password' placeholder="senha"></LoginInput>
-                <LoginInput type='name' placeholder="nome"></LoginInput>
-                <LoginInput type='url' placeholder="foto"></LoginInput>
-                <LoginButton>Entrar</LoginButton>
-                <Join>Já tem uma conta? Faça login!</Join>
+                <LoginInput data-test="email-input" type='email' placeholder="email"></LoginInput>
+                <LoginInput data-test="password-input" type='password' placeholder="senha"></LoginInput>
+                <LoginInput data-test="user-name-input" type='name' placeholder="nome"></LoginInput>
+                <LoginInput data-test="user-image-input" type='url' placeholder="foto"></LoginInput>
+                <LoginButton data-test="signup-btn">Entrar</LoginButton>
+                <Join data-test="login-link" >Já tem uma conta? Faça login!</Join>
             </form>
         </LoginBox>
         </>

@@ -7,10 +7,10 @@ function Login(){
         <LoginBox>
             <img src={image} alt='logo trackIt'/>
             <form>
-                <LoginInput type='email' placeholder="email"></LoginInput>
-                <LoginInput type='password' placeholder="senha"></LoginInput>
-                <LoginButton>Entrar</LoginButton>
-                <Join>Não tem uma conta? Cadastre-se!</Join>
+                <LoginInput  data-test="email-input" type='email' placeholder="email"></LoginInput>
+                <LoginInput data-test="password-input" type='password' placeholder="senha"></LoginInput>
+                <LoginButton data-test="login-btn">Entrar</LoginButton>
+                <Join data-test="signup-link">Não tem uma conta? Cadastre-se!</Join>
             </form>
         </LoginBox>
         </>

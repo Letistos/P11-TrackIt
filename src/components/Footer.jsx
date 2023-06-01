@@ -2,11 +2,11 @@ import styled from "styled-components";
 function Footer(){
     return(
         <>
-            <FooterBox> 
+            <FooterBox data-test="menu"> 
                 
-            <p>Hábitos</p>
-            <BlueCircle><p>Hoje</p></BlueCircle>
-            <p>Histórico</p>
+            <p data-test="habit-link">Hábitos</p>
+            <BlueCircle data-test="today-link"><p>Hoje</p></BlueCircle>
+            <p data-test="history-link" >Histórico</p>
                 
             </FooterBox>
         </>

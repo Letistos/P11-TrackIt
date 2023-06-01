@@ -2,10 +2,10 @@ import styled from "styled-components";
 function Header(){
     return(
         <>
-            <HeaderBox> 
+            <HeaderBox data-test="header"> 
                 
             <p>TrackIt</p>
-            <img src="https://i0.wp.com/i.pinimg.com/originals/b0/1e/bf/b01ebfc52eeeb6c31e57c9fec0651481.jpg?resize=160,120" alt="imagem de perfil do usuário"/>
+            <img data-test="avatar" src="https://i0.wp.com/i.pinimg.com/originals/b0/1e/bf/b01ebfc52eeeb6c31e57c9fec0651481.jpg?resize=160,120" alt="imagem de perfil do usuário"/>
                 
             </HeaderBox>
         </>
