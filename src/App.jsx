@@ -1,7 +1,8 @@
 import GlobalStyle from "./components/GlobalStyle"
 import styled from "styled-components"
 // import Login from "./components/Login"
-import Cadastro from "./components/Cadastro"
+// import Cadastro from "./components/Cadastro"
+import Habitos from "./components/Habitos"
 function App() {
   return (
     <>
@@ -9,7 +10,8 @@ function App() {
     
     <GlobalStyle/>
     {/* <Login/> */}
-    <Cadastro/>
+    {/* <Cadastro/> */}
+    <Habitos/>
     </Body>
 
     </>
