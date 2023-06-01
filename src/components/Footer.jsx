@@ -25,8 +25,8 @@ const FooterBox = styled.div`
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding-left:18px;
-    padding-right:18px;
+    padding-left:36px;
+    padding-right:36px;
 
 
     p{
@@ -45,7 +45,7 @@ const BlueCircle = styled.div`
     position:absolute;
     z-index:2;
     margin-bottom:35px;
-    margin-left:33%;
+    margin-left:28%;
     display:flex;
     align-items:center;
     justify-content:center;
